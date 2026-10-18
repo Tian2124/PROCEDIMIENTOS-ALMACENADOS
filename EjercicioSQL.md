@@ -1,12 +1,8 @@
 Objetivo
 Implementar y comprobar lógica de negocio dentro de PostgreSQL mediante un procedimiento almacenado, una función escalar y un trigger. Se evaluará que los objetos resuelvan responsabilidades diferentes y funcionen de manera integrada.
 
-Valor total: 5 puntos. Modalidad: individual. Entrega: un único PDF con enlace al repositorio de GitHub y capturas de resultados. No se requiere video.
-
 Caso: cambios de precios con trazabilidad
 Una tienda digital necesita actualizar precios de su catálogo de forma controlada. Antes de aplicar un ajuste porcentual, debe poder calcular el precio resultante sin modificar datos. Al aplicar el ajuste, debe validar los parámetros y la existencia del producto. Cada cambio efectivo de precio debe dejar un registro automático con el valor anterior, el nuevo valor, la fecha y el usuario de la base de datos.
-
-Puede utilizar Chinook y su catálogo de pistas, o una base propia de productos que implemente exactamente las mismas reglas y pruebas. Trabaje sobre una copia local de práctica. No modifique precios históricos de facturas: el cambio afecta únicamente al precio actual del catálogo.
 
 1. Preparación de la base de datos
 Use PostgreSQL; documente la versión utilizada. Se recomienda PostgreSQL 18.
